@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Slash
+  - Obstacle
+  - Enemy2
+  - Spike
+  - elevator
+  - Ladder
+  - Dummy
+  - Ceil
+  - Wall
+  - EnterBoss
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - oneway
+  - Obstacle
+  - Boss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background1
+    uniqueID: 2171975059
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1979737009
+    locked: 0
+  - name: NoneLight
+    uniqueID: 2694781537
+    locked: 0
+  - name: UI
+    uniqueID: 3008912877
+    locked: 0

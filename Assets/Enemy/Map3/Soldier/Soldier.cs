@@ -1,0 +1,206 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Soldier : MonoBehaviour
+{
+    [SerializeField] private float hp;
+    [SerializeField] private Animator animator;
+    [SerializeField] private DmgFlash _dmgFlash;
+    [SerializeField] private PlayerMoveBehave player;
+    [SerializeField] private float moveSpeed;
+    [SerializeField] private float lineOfSite;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private LayerMask whatIsPlayer;
+    [SerializeField] private Vector2 rayOffSet;
+    [SerializeField] private float rayDistance;
+    [SerializeField] BoxCollider2D triggerBox;
+    [SerializeField] SpriteRenderer noitice;
+    [SerializeField] private GameObject boom;
+    [SerializeField] private CameraManager cam;
+    private Slash slashDmg;
+    private bool isAttacking;
+    private bool isMoving = true;
+    private bool isScaling = false;
+    private bool getHit = false;
+    private bool isPursuing;
+    private float pursuingDuration = 2f;
+    private float pursuingTime;
+    private bool isFacingRight;
+    // Start is called before the first frame update
+    void Start()
+    {
+        slashDmg = GameObject.FindGameObjectWithTag("Slash").GetComponent<Slash>();
+        player = FindAnyObjectByType<PlayerMoveBehave>();
+        noitice.transform.localScale = Vector3.zero;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (!isMoving)
+        {
+            return;
+        }
+        if (hp <= 0)
+        {
+            StartCoroutine(Dying());
+        }
+        Flip();
+        WalkAnimation();
+        if (Pursuing())
+        {
+            if (!isScaling)
+            {
+                StartCoroutine(ScaleNoitice());
+                StartCoroutine(Noitice());
+            }
+            isPursuing = true;
+        }
+        float distance = Vector2.Distance(player.transform.position, transform.position);
+        if (distance < lineOfSite && isPursuing)
+        {
+            pursuingTime = pursuingDuration;
+            float direction = 0f;
+            if ((player.transform.position.x - transform.position.x) > 0.25f)
+            {
+                direction = 1;
+            }
+            else if ((player.transform.position.x - transform.position.x) < -0.25f)
+            {
+                direction = -1;
+            }
+            if (distance > 2.5f && !isAttacking)
+            {
+                rb.linearVelocity = new Vector2(direction * moveSpeed, rb.linearVelocity.y);
+            }
+            else if (!isAttacking)
+            {
+                rb.linearVelocity = Vector2.zero;
+                StartCoroutine(Attack());
+            }
+            isScaling = true;
+            //animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            pursuingTime -= Time.deltaTime;
+            if (pursuingTime < 0f)
+            {
+                isScaling = false;
+                noitice.transform.localScale = Vector3.zero;
+                isPursuing = false;
+                //animator.SetBool("isWalking", false);
+            }
+        }
+    }
+    private IEnumerator Attack()
+    {
+        isAttacking = true;
+        animator.SetBool("isAttacking", true);
+        yield return new WaitForSeconds(0.4f);
+        triggerBox.enabled = false;
+        boom.SetActive(true);
+        cam.Shake(1.5f, 1.5f, 0.25f);
+        yield return new WaitForSeconds(0.1f);
+        boom.SetActive(false);
+        yield return new WaitForSeconds(0.45f);
+        yield return new WaitForSeconds(0.5f);
+        animator.SetBool("isAttacking", false);
+        isAttacking = false;
+        Destroy(gameObject);
+    }
+    private void WalkAnimation()
+    {
+        bool active = Mathf.Abs(rb.linearVelocity.x) > 0f;
+        animator.SetBool("isWalking", active);
+    }
+    private void Flip()
+    {
+        if ((player.transform.position.x - transform.position.x) < -0.25f && isFacingRight || !isFacingRight && (player.transform.position.x - transform.position.x) > 0.25f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1;
+            transform.localScale = localScale;
+        }
+    }
+    private bool Pursuing()
+    {
+        Vector2 origin = (Vector2)transform.position + rayOffSet;
+        Debug.DrawRay(origin, Vector2.right * rayDistance, Color.red);
+        RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.right, rayDistance, whatIsPlayer);
+        return hit;
+    }
+    private IEnumerator ScaleNoitice()
+    {
+        isScaling = false;
+        float timeElapsed = 0f;
+
+        while (timeElapsed < 0.1f)
+        {
+            noitice.transform.localScale = Vector3.Lerp(Vector3.zero, Vector3.one, timeElapsed / 0.1f);
+            timeElapsed += Time.deltaTime;
+            yield return null;
+
+        }
+
+        noitice.transform.localScale = Vector3.one;
+
+    }
+    private IEnumerator Noitice()
+    {
+        isMoving = false;
+        rb.linearVelocity = Vector2.zero;
+        yield return new WaitForSeconds(0.65f);
+        isMoving = true;
+    }
+    private IEnumerator GetHit()
+    {
+        if (!isPursuing)
+        {
+            StartCoroutine(Noitice());
+            isPursuing = true;
+        }
+        getHit = true;
+        isMoving = false;
+        transform.position += new Vector3(0.5f * player.getLocalScaleX(), 0f, 0f);
+        rb.linearVelocity = Vector2.zero;
+        yield return new WaitForSeconds(0.15f);
+        isMoving = true;
+        yield return new WaitForSeconds(0.05f);
+        getHit = false;
+    }
+    private IEnumerator Dying()
+    {
+        noitice.enabled = false;
+        animator.SetTrigger("isDead");
+        rb.linearVelocity = Vector2.zero;
+        isMoving = false;
+        triggerBox.enabled = false;
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.CompareTag("Slash") && !getHit)
+        {
+            if (player != null)
+            {
+                StartCoroutine(GetHit());
+                hp -= slashDmg.getSlashDmg();
+                _dmgFlash.CallDmgFlash();
+            }
+        }
+        if (collision.CompareTag("Spike"))
+        {
+            StartCoroutine(Dying());
+        }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, lineOfSite);
+    }
+}

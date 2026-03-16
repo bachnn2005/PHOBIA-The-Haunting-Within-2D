@@ -1,0 +1,1940 @@
+fileFormatVersion: 2
+guid: 558985a3b60ad874282bd598e2258ba9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RooIntm_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39e369827329464a8de2ead054058c0
+      internalID: 1989258903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3572c0ad69ac2f4581b5e969aaf093a
+      internalID: -1562171157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85e0e7ad28315546b9b198bd8d0ffcd
+      internalID: -1539572079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4519c89d3b4b9b45a2ad8b3a12800bf
+      internalID: 589080754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460ad8fb7b9be3444ba3e452eb23407f
+      internalID: 1053678825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a73f5562399034399ca448b6112a5a
+      internalID: 975353206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86ebef2442e6c84ea81baa69640780d
+      internalID: -1978000636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0f2cceaf226d34c924d47fa4025444
+      internalID: 325343868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e575c95d2b3f8643a27b31964be6211
+      internalID: -1445521419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d1263857bac7a4e8e6f79d70d07a94
+      internalID: 1066632632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8275500ca4857504aa9c116b72df025b
+      internalID: -1459868905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2fa1431fef7a7449d72f64b9578ea2
+      internalID: 1692686250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7ca9d3b8eefc4489797de08950bfc0
+      internalID: -297897964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b91689379d0b94c9c40071d43a6d95
+      internalID: -480449608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef512f336c0d374eb2848159c20656d
+      internalID: 842307274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_15
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2787a4b7c31c9ed41bd0c3ceb4a7b343
+      internalID: -569815480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f128c988670c944ea0dee21778b475d
+      internalID: -1933017091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9167d68b872e3fb478fa17299ccc35da
+      internalID: 2008493519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbf15b4d5a4177489851d6cc6916457
+      internalID: -156639782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91da801b564ba4c9ac104621ea72ab
+      internalID: -787641031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 285
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1730a6089519fce489f8c5393db8fdb7
+      internalID: -1177340465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb578e24cdac804a9aa7c10efc3f914
+      internalID: 930037801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77a875ae0724154582c4616a44b8d58
+      internalID: -665573678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7bbbfe8a983a240bb9aeb3d1631661
+      internalID: 299152379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b6fdaab6e97384092ea729530dd0df
+      internalID: -1539895581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35742d47334204a4eb2cea9faa36fa93
+      internalID: 1606142760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9ccc74f5aaf1842ad9376e3c9aeaee
+      internalID: -1546710189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_27
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567d4a0e186f5045b5d50ab000cdd41
+      internalID: 223425142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a67cab81042a224083987ff710b5e8c
+      internalID: 1086066209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 269
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551ee6a8d2a7dc548a691332739e64f5
+      internalID: 1174751267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cad63cee3464a40bf30f42dd727c6e
+      internalID: 656752342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4972b9e4b85ca4bb4defbf30f22629
+      internalID: 1024111170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a385093b0781928489edb1be5eaea871
+      internalID: -360396289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1568484f1a9485945b05da4cec2200f6
+      internalID: -1311261909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ef4db6c9ae7764286ece82eb1c38ed
+      internalID: 1089044306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c8c8a7482862479b4a9a2465a4e96
+      internalID: -1007581593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d82f2f5f170d494598c294480ccdb72
+      internalID: 948449043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_37
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bca6c02643c984dbec5b8648b0da6d
+      internalID: 361846221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d48db5724f18428d6fd7a8b547c95
+      internalID: 1010836281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 253
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fb54564472d8449bef565c97737a92
+      internalID: -615352734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d30cfd3f5af6774e9833dcd8f36b766
+      internalID: 1240403212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba81839938d9a7d41b4aa3d7a7e7b3a2
+      internalID: 1114177619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_42
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b81df2d620b1d44e87ae61e7af4082f
+      internalID: 1976133756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe4f3782c71466479bc7882dbb50440
+      internalID: 1328134037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5b74e9630b7df468700eeff0969977
+      internalID: 1419560436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428e34e5acd50874bbe3cd91ee6016a8
+      internalID: 1672460919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6e3f37614e87c4a9bed75cf1ffb522
+      internalID: 968000176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_47
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bded44ae9bf644aaa1a5581de95a99
+      internalID: 1884285222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a2ee28e9256bc458b324b9cfe208bf
+      internalID: -297745935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f420702150cfb49a905d60c6fab3c1
+      internalID: -1614241471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_50
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ba9bac6d36de1428f1580df6265ad1
+      internalID: 1182648693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_51
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a14ed9df5f85b4c953a380e099703f
+      internalID: -2043993053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae720c436e3638942ac16db84be02a7e
+      internalID: -543416790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 237
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d135300375a8164283ebf7165c97afe
+      internalID: 546360973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f882d8041dfab61439eae4c56cb660a7
+      internalID: 74807651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7f29e39a17f8d48b7ea5cbc0a8bc4f
+      internalID: 989834306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_56
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21f8e30e1f455f45aa20a0dc4589f81
+      internalID: -66530380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_57
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85ef3f3ec61afa45a0df213687cb55f
+      internalID: 766468259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27847272a46a4c04bab69d11d782bc1d
+      internalID: 1569977810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_59
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece7d3be6e3608d4e8ef9bc6dfcb9135
+      internalID: 1056338875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cfdb37c0219b9498ed62c1d95c996b
+      internalID: 1067624840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_61
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f5884d600ef2843ab0d21296847d24
+      internalID: -236584878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_62
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be30bb8cf3017e746b7b81cb4e0bc743
+      internalID: 735917450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_63
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c424b2a55d92efe48a05469cdde14f1c
+      internalID: 532931044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1098c8d16ca171a47ab9c7bea38fdac9
+      internalID: 2046865138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_65
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b827a49f92ed5346a2ff0d7d246398b
+      internalID: 1480758196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edcf086733c8ce4c9d60e276c78785d
+      internalID: 289486428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 221
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23385dca4ab98e418859601382d1df9
+      internalID: 1700558858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded4435bcf85dc4e99edde3c515d83c
+      internalID: 988102185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad4c68917eaf2d4a950e81082a31b37
+      internalID: 425774689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211411a463fa88d42b3e47cbd6c349bb
+      internalID: 920703083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ba7d1ea6665a140a6c7d8744fbc81e
+      internalID: -1819439712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e1518ff0c1f184b93b2d944fee3954
+      internalID: 1921479158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_73
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20029053903fdcc4fb4075d4e68ba2f4
+      internalID: 384201542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e79b0ba324cee42b23f8cd477906f0
+      internalID: -1420920230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_75
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10c81716985bd143881d1553bad5e42
+      internalID: -433700211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee8ddb37ab51ab4abda5a6f42ecfd3d
+      internalID: 1243321453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acc24202435e8d418330671604cb0cc
+      internalID: -678600125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_78
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6182462e753c8af41b0ad3dc5fd74636
+      internalID: 786990913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_79
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7b0bb138efb684ba3205b4f2fda69e
+      internalID: -1478350579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9cc165e33065c44a6f5b08505232a8
+      internalID: 728114720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799079e0e43363b4483317411f475a84
+      internalID: 1768692880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RooIntm_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918f685fd75f2e644b577efea9a0ea5d
+      internalID: -1985464218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RooIntm_0: 1989258903
+      RooIntm_1: -1562171157
+      RooIntm_10: -1459868905
+      RooIntm_11: 1692686250
+      RooIntm_12: -297897964
+      RooIntm_13: -480449608
+      RooIntm_14: 842307274
+      RooIntm_15: -569815480
+      RooIntm_16: -1933017091
+      RooIntm_17: 2008493519
+      RooIntm_18: -156639782
+      RooIntm_19: -787641031
+      RooIntm_2: -1539572079
+      RooIntm_20: -1177340465
+      RooIntm_21: 930037801
+      RooIntm_22: -665573678
+      RooIntm_23: 299152379
+      RooIntm_24: -1539895581
+      RooIntm_25: 1606142760
+      RooIntm_26: -1546710189
+      RooIntm_27: 223425142
+      RooIntm_28: 1086066209
+      RooIntm_29: 1174751267
+      RooIntm_3: 589080754
+      RooIntm_30: 656752342
+      RooIntm_31: 1024111170
+      RooIntm_32: -360396289
+      RooIntm_33: -1311261909
+      RooIntm_34: 1089044306
+      RooIntm_35: -1007581593
+      RooIntm_36: 948449043
+      RooIntm_37: 361846221
+      RooIntm_38: 1010836281
+      RooIntm_39: -615352734
+      RooIntm_4: 1053678825
+      RooIntm_40: 1240403212
+      RooIntm_41: 1114177619
+      RooIntm_42: 1976133756
+      RooIntm_43: 1328134037
+      RooIntm_44: 1419560436
+      RooIntm_45: 1672460919
+      RooIntm_46: 968000176
+      RooIntm_47: 1884285222
+      RooIntm_48: -297745935
+      RooIntm_49: -1614241471
+      RooIntm_5: 975353206
+      RooIntm_50: 1182648693
+      RooIntm_51: -2043993053
+      RooIntm_52: -543416790
+      RooIntm_53: 546360973
+      RooIntm_54: 74807651
+      RooIntm_55: 989834306
+      RooIntm_56: -66530380
+      RooIntm_57: 766468259
+      RooIntm_58: 1569977810
+      RooIntm_59: 1056338875
+      RooIntm_6: -1978000636
+      RooIntm_60: 1067624840
+      RooIntm_61: -236584878
+      RooIntm_62: 735917450
+      RooIntm_63: 532931044
+      RooIntm_64: 2046865138
+      RooIntm_65: 1480758196
+      RooIntm_66: 289486428
+      RooIntm_67: 1700558858
+      RooIntm_68: 988102185
+      RooIntm_69: 425774689
+      RooIntm_7: 325343868
+      RooIntm_70: 920703083
+      RooIntm_71: -1819439712
+      RooIntm_72: 1921479158
+      RooIntm_73: 384201542
+      RooIntm_74: -1420920230
+      RooIntm_75: -433700211
+      RooIntm_76: 1243321453
+      RooIntm_77: -678600125
+      RooIntm_78: 786990913
+      RooIntm_79: -1478350579
+      RooIntm_8: -1445521419
+      RooIntm_80: 728114720
+      RooIntm_81: 1768692880
+      RooIntm_82: -1985464218
+      RooIntm_9: 1066632632
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

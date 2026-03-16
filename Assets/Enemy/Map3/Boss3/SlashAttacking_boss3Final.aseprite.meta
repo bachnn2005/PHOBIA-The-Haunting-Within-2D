@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: cdf5ea86f5ea4c643923f194392daa8a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638653280904845787
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: SlashAttacking_boss3Final_Frame_0
+    originalName: 
+    pivot: {x: 0.46153846, y: -10.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 22
+      width: 13
+      height: 3
+    spriteID: 55bc8bf7ac8471347b1a5f68a39d3bf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 22}
+  - name: SlashAttacking_boss3Final_Frame_1
+    originalName: 
+    pivot: {x: 0.46153846, y: -5.3333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 243
+      width: 13
+      height: 6
+    spriteID: afe130dd7b3cce443ae2295ade22e281
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 243}
+  - name: SlashAttacking_boss3Final_Frame_2
+    originalName: 
+    pivot: {x: 0.46153846, y: -3.2000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 4
+      width: 13
+      height: 10
+    spriteID: 745556aad60ca574cb3f933b369f6a51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 4}
+  - name: SlashAttacking_boss3Final_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -2.1333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 236
+      width: 12
+      height: 15
+    spriteID: fd08be0d372602540b243b5a7a17b2c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 236}
+  - name: SlashAttacking_boss3Final_Frame_4
+    originalName: 
+    pivot: {x: 0.53846145, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 189
+      width: 13
+      height: 19
+    spriteID: 1cc58d856c998574aaedfaac07dacac6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 189}
+  - name: SlashAttacking_boss3Final_Frame_5
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 54
+      width: 15
+      height: 19
+    spriteID: 0aad5a0637e9d5f4c855f120b6a0f2a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 54}
+  - name: SlashAttacking_boss3Final_Frame_6
+    originalName: 
+    pivot: {x: 0.57142866, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 108
+      width: 14
+      height: 19
+    spriteID: 5e403c8d51ab95448a4b8c5b49a7efc1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 108}
+  - name: SlashAttacking_boss3Final_Frame_7
+    originalName: 
+    pivot: {x: 0.57142866, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 135
+      width: 14
+      height: 19
+    spriteID: e7c7ba3a3462d9c478513876e46a1e1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 135}
+  - name: SlashAttacking_boss3Final_Frame_8
+    originalName: 
+    pivot: {x: 0.7222222, y: -1.7777779}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 18
+      height: 18
+    spriteID: a2695749017d3f94cb67a789a6fbe8b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: SlashAttacking_boss3Final_Frame_9
+    originalName: 
+    pivot: {x: 0.75, y: -1.8823531}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 24
+      height: 17
+    spriteID: 08337d54305b7a043b887632b232aae4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: SlashAttacking_boss3Final_Frame_10
+    originalName: 
+    pivot: {x: 0.75, y: -1.8823531}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 29
+      width: 24
+      height: 17
+    spriteID: 2fcfdb22616a6e144a782024b5367ff0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 29}
+  - name: SlashAttacking_boss3Final_Frame_11
+    originalName: 
+    pivot: {x: 0.9473684, y: -1.8823531}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 19
+      height: 17
+    spriteID: 885d5edeaaa310b4fb9c2288a7d03d18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
+  - name: SlashAttacking_boss3Final_Frame_12
+    originalName: 
+    pivot: {x: 1.0000001, y: -1.5789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 54
+      width: 20
+      height: 19
+    spriteID: 6bca28c6a0f8f574ca8fa022fa70eae1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 54}
+  - name: SlashAttacking_boss3Final_Frame_13
+    originalName: 
+    pivot: {x: 1.0000001, y: -1.5789473}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 81
+      width: 20
+      height: 19
+    spriteID: 520a7d9c30503bc41b8c70a9eb55c4d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 81}
+  - name: SlashAttacking_boss3Final_Frame_14
+    originalName: 
+    pivot: {x: 1.0588236, y: -1.8823531}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 29
+      width: 17
+      height: 17
+    spriteID: 1ddcd23c3f350f647a06831ada62cf14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 29}
+  - name: SlashAttacking_boss3Final_Frame_15
+    originalName: 
+    pivot: {x: 1, y: -1.7222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 18
+      height: 18
+    spriteID: 4b5fccf4914dc6649bee72b7e044e324
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: SlashAttacking_boss3Final_Frame_16
+    originalName: 
+    pivot: {x: 0.8571429, y: -1.8823531}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 21
+      height: 17
+    spriteID: ee88aa875dd4798458c5f8dc3b400b96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: SlashAttacking_boss3Final_Frame_17
+    originalName: 
+    pivot: {x: 0.8571429, y: -1.8823531}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 133
+      width: 21
+      height: 17
+    spriteID: e26e9a5c8c2a7064b9eae7367daed96b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 133}
+  - name: SlashAttacking_boss3Final_Frame_18
+    originalName: 
+    pivot: {x: 0.7222222, y: -1.7777779}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 210
+      width: 18
+      height: 18
+    spriteID: b9b3a44390b0bfd4089210e3a524a55c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 210}
+  - name: SlashAttacking_boss3Final_Frame_19
+    originalName: 
+    pivot: {x: 0.57142866, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 162
+      width: 14
+      height: 19
+    spriteID: 566290f8478334d4c9a9a57412e65f04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 162}
+  - name: SlashAttacking_boss3Final_Frame_20
+    originalName: 
+    pivot: {x: 0.5333334, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 81
+      width: 15
+      height: 19
+    spriteID: f063c45c27b241c459cd444d356800a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 81}
+  - name: SlashAttacking_boss3Final_Frame_21
+    originalName: 
+    pivot: {x: 0.53846145, y: -1.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 216
+      width: 13
+      height: 19
+    spriteID: a502e369893c2a04ba65c85f8c3b86bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 216}
+  spriteSheetImportData: []
+  tileSetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    uuid:
+      value0: 889745488
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 889745488
+    name: SlashAttacking_boss3Final
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 32
+        width: 13
+        height: 3
+      spriteId: 55bc8bf7ac8471347b1a5f68a39d3bf6
+    - name: Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 32
+        width: 13
+        height: 6
+      spriteId: afe130dd7b3cce443ae2295ade22e281
+    - name: Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 32
+        width: 13
+        height: 10
+      spriteId: 745556aad60ca574cb3f933b369f6a51
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 42
+        y: 32
+        width: 12
+        height: 15
+      spriteId: fd08be0d372602540b243b5a7a17b2c3
+    - name: Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 32
+        width: 13
+        height: 19
+      spriteId: 1cc58d856c998574aaedfaac07dacac6
+    - name: Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 32
+        width: 15
+        height: 19
+      spriteId: 0aad5a0637e9d5f4c855f120b6a0f2a2
+    - name: Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 32
+        width: 14
+        height: 19
+      spriteId: 5e403c8d51ab95448a4b8c5b49a7efc1
+    - name: Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 32
+        width: 14
+        height: 19
+      spriteId: e7c7ba3a3462d9c478513876e46a1e1d
+    - name: Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 32
+        width: 18
+        height: 18
+      spriteId: a2695749017d3f94cb67a789a6fbe8b9
+    - name: Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 32
+        width: 24
+        height: 17
+      spriteId: 08337d54305b7a043b887632b232aae4
+    - name: Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 32
+        width: 24
+        height: 17
+      spriteId: 2fcfdb22616a6e144a782024b5367ff0
+    - name: Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 32
+        width: 19
+        height: 17
+      spriteId: 885d5edeaaa310b4fb9c2288a7d03d18
+    - name: Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 28
+        y: 30
+        width: 20
+        height: 19
+      spriteId: 6bca28c6a0f8f574ca8fa022fa70eae1
+    - name: Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 28
+        y: 30
+        width: 20
+        height: 19
+      spriteId: 520a7d9c30503bc41b8c70a9eb55c4d1
+    - name: Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 32
+        width: 17
+        height: 17
+      spriteId: 1ddcd23c3f350f647a06831ada62cf14
+    - name: Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 31
+        width: 18
+        height: 18
+      spriteId: 4b5fccf4914dc6649bee72b7e044e324
+    - name: Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 32
+        width: 21
+        height: 17
+      spriteId: ee88aa875dd4798458c5f8dc3b400b96
+    - name: Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 32
+        width: 21
+        height: 17
+      spriteId: e26e9a5c8c2a7064b9eae7367daed96b
+    - name: Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 32
+        width: 18
+        height: 18
+      spriteId: b9b3a44390b0bfd4089210e3a524a55c
+    - name: Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 32
+        width: 14
+        height: 19
+      spriteId: 566290f8478334d4c9a9a57412e65f04
+    - name: Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 40
+        y: 32
+        width: 15
+        height: 19
+      spriteId: f063c45c27b241c459cd444d356800a1
+    - name: Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 32
+        width: 13
+        height: 19
+      spriteId: a502e369893c2a04ba65c85f8c3b86bf
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  tileSets: []
+  platformSettings:
+  - name: Default
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}
+  previousTextureSize: {x: 128, y: 256}
