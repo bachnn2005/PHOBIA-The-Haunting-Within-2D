@@ -12,7 +12,7 @@ PHOBIA: The Haunting Within 2D is a chilling horror game that immerses players i
 
 ## Installation
 1. **Download the Game**:
-   - Clone the repository: `git clone https://github.com/bachnn2005/PHOBIA-The-Haunting-Within-2D`
+   - Itch.io: (https://hvudasick.itch.io/phobia-the-haunting-within)
    - Navigate to the project directory: `cd PHOBIA-The-Haunting-Within-2D`
 
 2. **Install Dependencies**:
