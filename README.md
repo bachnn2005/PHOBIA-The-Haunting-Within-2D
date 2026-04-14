@@ -1,5 +1,6 @@
 # PHOBIA: The Haunting Within 2D
-
+Gameplay: https://www.youtube.com/watch?v=V5VjyF1h0VU&list=TLGGDe9WAjFx7zYxNjAzMjAyNg&t=80s  
+Web: https://phobia-thehauntingwithin.vercel.app/
 ## Description
 PHOBIA: The Haunting Within 2D is a chilling horror game that immerses players in a world filled with eerie atmospheres and psychological thrills. Players will navigate through haunted environments, solve puzzles, and encounter terrifying entities that challenge their sanity and survival instincts.
 
@@ -19,5 +20,4 @@ PHOBIA: The Haunting Within 2D is a chilling horror game that immerses players i
    - Make sure you have [Unity](https://unity.com/) installed, as this game is developed using the Unity engine.
    - Install required packages using your package manager:
 
-Gameplay: https://www.youtube.com/watch?v=V5VjyF1h0VU&list=TLGGDe9WAjFx7zYxNjAzMjAyNg&t=80s  
-Web: https://phobia-thehauntingwithin.vercel.app/
+
